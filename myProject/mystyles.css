@@ -1,0 +1,72 @@
+:root {
+    --background-clr: #011F3F;
+    --heading-clr: #FEF2BF;
+}
+
+body {
+    background-color: var(--background-clr);
+    text-align: center;
+}
+
+#level-title {
+    color: var(--heading-clr);
+    font-family: 'Press Start 2p', cursive;
+    font-size: 3rem;
+    margin: 5%;
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: solid black 8px;
+    border-radius: 40px;
+    margin: 25px;
+    display: inline-block;
+}
+
+.green {
+    background-color: green;
+}
+
+.green-replay {
+    background-color: rgb(71, 170, 71);
+    box-shadow: 0 0 20px white;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-replay {
+    background-color: rgb(255, 102, 102);
+    box-shadow: 0 0 20px white;
+}
+
+.yellow { 
+    background-color: yellow;
+}
+
+.yellow-replay { 
+    background-color: rgb(255, 255, 129);
+    box-shadow: 0 0 20px white;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue-replay {
+    background-color: rgb(101, 101, 255);
+    box-shadow: 0 0 20px white;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
